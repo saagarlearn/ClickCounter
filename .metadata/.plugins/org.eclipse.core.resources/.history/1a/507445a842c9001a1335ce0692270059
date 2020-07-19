@@ -1,0 +1,5 @@
+package io.springboot.example.springbootcounter.counter;
+
+public class CounterService {
+
+}

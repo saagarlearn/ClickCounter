@@ -1,0 +1,8 @@
+package io.springboot.example.springbootcounter.counter;
+
+public class Counter {
+	
+	private int count;
+	
+
+}

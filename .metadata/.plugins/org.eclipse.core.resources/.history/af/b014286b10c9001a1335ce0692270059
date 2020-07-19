@@ -1,0 +1,14 @@
+package io.springboot.example.springbootcounter.counter;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CounterController {
+	
+	@RequestMapping 
+	public String sayHi()
+	{
+		return "SayHi";
+	}
+
+}

@@ -1,0 +1,18 @@
+package io.springboot.example.springbootcounter.counter;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CounterController {
+	
+	@Autowire
+	private CounterService counterService;
+	//private int i = 0;
+	@RequestMapping("/clickcounter")
+	public int clickCounter()
+	{
+		//return i++;
+	}
+
+}

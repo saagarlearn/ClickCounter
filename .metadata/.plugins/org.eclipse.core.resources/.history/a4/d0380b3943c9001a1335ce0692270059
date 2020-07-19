@@ -1,0 +1,11 @@
+package io.springboot.example.springbootcounter.counter;
+
+import org.springframework.stereotype.Service;
+
+@Service
+
+public class CounterService {
+	
+	
+
+}
